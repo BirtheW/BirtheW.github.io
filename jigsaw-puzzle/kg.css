@@ -36,39 +36,39 @@ div.pieces {position: absolute; width: 60px; height: 60px;
 #grid0, #grid8, #grid16
            {left: 60px}
 #piece0, #piece8, #piece16
-           {left: 600px}
+           {left: 660px}
 
 #grid1, #grid9, #grid17
            {left: 120px}
 #piece1, #piece9, #piece17
-           {left: 660px}
+           {left: 720px}
 
 #grid2, #grid10, #grid18
            {left: 180px}
 #piece2, #piece10, #piece18
-           {left: 720px}
+           {left: 780px}
 
 #grid3, #grid11, #grid19
            {left: 240px}
 #piece3, #piece11, #piece19
-           {left: 780px}
+           {left: 840px}
 
 #grid4, #grid12, #grid20
            {left: 300px}
 #piece4, #piece12, #piece20
-           {left: 840px}
+           {left: 900px}
 
 #grid5, #grid13, #grid21
            {left: 360px}
 #piece5, #piece13, #piece21
-           {left: 900px}
+           {left: 960px}
 
 #grid6, #grid14, #grid22
            {left: 420px}
 #piece6, #piece14, #piece22
-           {left: 960px}
+           {left: 1020px}
 
 #grid7, #grid15, #grid23
            {left: 480px}
 #piece7, #piece15, #piece23
-           {left: 1020px}
+           {left: 1080px}
