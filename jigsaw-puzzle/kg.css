@@ -1,0 +1,74 @@
+
+
+
+
+
+#controls  {position: absolute; top: 640px; left: 175px;
+            width: 640px}
+
+input      {margin: 0 20px;
+            padding: 1em;
+            background: #dbae58;
+            border: none;
+            text-decoration: none;
+            font-weight: 700;
+            color: white;
+            } 
+
+
+div.grid   {position: absolute; width: 60px; height: 60px;
+            border: 1px solid rgb(212,212,212); background-color: white; }
+div.pieces {position: absolute; width: 60px; height: 60px;
+            border: 1px solid rgb(212,212,212); }
+
+#grid0, #grid1, #grid2, #grid3, #grid4, #grid5, #grid6, #grid7,
+#piece0, #piece1, #piece2, #piece3, #piece4, #piece5, #piece6, #piece7
+           {top: 320px}
+
+#grid8, #grid9, #grid10, #grid11, #grid12, #grid13, #grid14, #grid15,
+#piece8, #piece9, #piece10, #piece11, #piece12, #piece13, #piece14, #piece15
+           {top: 380px}
+
+#grid16, #grid17, #grid18, #grid19, #grid20, #grid21, #grid22, #grid23,
+#piece16, #piece17, #piece18, #piece19, #piece20, #piece21, #piece22, #piece23
+           {top: 440px}
+
+#grid0, #grid8, #grid16
+           {left: 160px}
+#piece0, #piece8, #piece16
+           {left: 700px}
+
+#grid1, #grid9, #grid17
+           {left: 220px}
+#piece1, #piece9, #piece17
+           {left: 760px}
+
+#grid2, #grid10, #grid18
+           {left: 280px}
+#piece2, #piece10, #piece18
+           {left: 820px}
+
+#grid3, #grid11, #grid19
+           {left: 340px}
+#piece3, #piece11, #piece19
+           {left: 880px}
+
+#grid4, #grid12, #grid20
+           {left: 400px}
+#piece4, #piece12, #piece20
+           {left: 940px}
+
+#grid5, #grid13, #grid21
+           {left: 460px}
+#piece5, #piece13, #piece21
+           {left: 1000px}
+
+#grid6, #grid14, #grid22
+           {left: 520px}
+#piece6, #piece14, #piece22
+           {left: 1060px}
+
+#grid7, #grid15, #grid23
+           {left: 580px}
+#piece7, #piece15, #piece23
+           {left: 1120px}
