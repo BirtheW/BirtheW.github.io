@@ -1,0 +1,224 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+#container{
+    position: absolute;
+    margin:auto;
+    width: 300px;
+    height: 330px;
+   background-color: #ffb687;
+}
+
+#background{
+    position:absolute;
+    width:226px;
+    height:330px;
+    left:37px;
+    right: 37px;
+    background-image: url("../img/Achtergrond.png");
+    
+}
+
+#man{
+    position:absolute;
+    width:226px;
+    height:330px;
+    
+    
+    background-image: url("../img/meng.png");
+    
+    
+    
+ 
+}
+
+#broek{
+     position:absolute;
+    width:226px;
+    height:330px;
+    
+    
+    
+    
+}
+
+.broek1{
+     position:absolute;
+    width:226px;
+    height:330px;
+    background-image: url(../img/broek1.png);
+    
+    
+    
+    
+}
+
+.broek2{
+    position:absolute;
+    width:226px;
+    height:330px;
+    background-image: url(../img/broek2.png);
+    
+}
+
+.broek3{
+    position:absolute;
+    width:226px;
+    height:330px;
+    background-image: url(../img/broek3.png);
+}
+
+#tshirt{
+    
+     position:absolute;
+    width:226px;
+    height:330px;
+    
+    
+    
+    
+}
+
+.tshirt1{
+    
+    position:absolute;
+    width:226px;
+    height:330px;
+    background-image: url(../img/tshirt1.png);
+}
+
+.tshirt2{
+    
+    position:absolute;
+    width:226px;
+    height:330px;
+    background-image: url(../img/tshirt2.png);
+}
+
+.tshirt3{
+    
+    position:absolute;
+    width:226px;
+    height:330px;
+    background-image: url(../img/tshirt3.png);
+}
+
+#hoofd{
+     position:absolute;
+    width:226px;
+    height:330px;
+    
+    
+    
+    
+    
+}
+
+.hoofd1{
+    
+    position:absolute;
+    width:226px;
+    height:330px;
+    background-image: url(../img/hoofd1.png);
+}
+
+.hoofd2{
+    
+    position:absolute;
+    width:226px;
+    height:330px;
+    background-image: url(../img/hoofd2.png);
+}
+
+.hoofd3{
+    
+    position:absolute;
+    width:226px;
+    height:330px;
+    background-image: url(../img/hoofd3.png);
+}
+
+#nexthoofd{
+    position:absolute;
+    right:0px;
+    top:60px;
+}
+
+#nexttshirt{
+    position:absolute;
+    right:0px;
+    top:180px;
+}
+
+#nextbroek{
+    position:absolute;
+    right:0px;
+    top:300px;
+}
+
+#prevhoofd{
+    position:absolute;
+    left:0px;
+    top:60px;
+}
+
+#prevtshirt{
+    position:absolute;
+    left:0px;
+    top:180px;
+}
+
+#prevbroek{
+    position:absolute;
+    left:0px;
+    top:300px;
+}
